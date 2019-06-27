@@ -25,16 +25,25 @@ h6{
     color: #fff;
     font-size: 60px;
     letter-spacing: 8px;
-    margin: 0;
+    margin: 50px 0 0;
+}
+
+.contact-us{
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    color: #fff;
+    font-family: 'Fjalla', sans-serif;
 }
 
 @media (max-width:700px){
     h6{
-        text-align: center;
-        font-family: 'Anton', sans-serif;
-        color: #fff;
-        font-size: 26px;
-        letter-spacing: 8px;
-        margin: 0;
+        font-size: 26px;    
     }  
+
+    .contact-us{
+        flex-direction: column;
+    }
 }
