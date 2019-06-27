@@ -10,7 +10,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: auto;
+    margin: 10% auto;
     width: 60%;
     height: 500px;
 }
@@ -35,7 +35,8 @@ h6{
 
 p {
     color: #fff;
-    font-family: 'Fjalla', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 14px;
 }
 
 @media (max-width:700px){
